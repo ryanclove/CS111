@@ -1,0 +1,25 @@
+Zoo
+
+There are a number of zoos in the United States. Each of these zoos is a home to giraffes, lions and snakes. 
+Write a program that computes and displays the total number of each (giraffes, lions, and snakes) in the zoos in the United States.
+
+Write your code in a file called Zoo.java, your class must have this exact name with the letter Z capitalized. Assume no errors.
+
+You must use the IO module to read inputs and to output your answers.
+
+For each zoo, request the number of animals in the following order: giraffes, lions, snakes.
+
+Display the resulting total number of animals in the following order: giraffes, lions, snakes.
+
+Example:
+$ java Zoo
+ Enter number of Zoos: 2
+ Enter number of giraffes for zoo 1: 3
+ Enter number of lions for zoo 1: 2
+ Enter number of snakes for zoo 1: 3
+ Enter number of giraffes for zoo 2: 4
+ Enter number of lions for zoo 2: 3
+ Enter number of snakes for zoo 2: 3
+ RESULT: 7
+ RESULT: 5
+ RESULT: 6
