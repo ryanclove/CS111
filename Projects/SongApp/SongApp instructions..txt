@@ -1,0 +1,26 @@
+SongApp
+
+In the second part of your project, you are to write a Song Application that stores a library of songs and implements several functionalities, 
+such as printing all songs in the library.
+
+We provide the following files here:
+IO.java: the IO class
+Song.java: the Song class from the first part of the project
+SongApp.java: the application file you are to update and submit
+SongDriver.java: a driver to test your SongApp
+SongApp.java contains all the methods you need to implement. Refer to the methods description on file for your implementation. Fill in the code 
+in the methods SongApp, addSong, removeSong, getSongs, getNumberOfItems, updateRating, print, getSongsBySongwriter, getSongsByYear, 
+getSongsWithRatingsGreaterThan, sortByName, sortByYear, and searchSongByName.
+
+Submit the file SongApp.java
+
+Observe the following rules:
+
+DO NOT add any import statements to SongApp.java
+DO NOT change the headers of ANY of the given methods
+DO NOT change/remove any of the given class fields
+DO NOT add any new class fields
+DO NOT use System.exit()
+DO NOT use the IO module in SongApp.java
+YOU MAY add new helper methods, but you must declare them private
+If you wish to change SongDriver, feel free. You are not submitting it.
