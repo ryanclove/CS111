@@ -1,0 +1,50 @@
+Song
+
+Suppose you want to have an application to keep track of all the songs you have. The first step is to define a class that represents a Song 
+and all the information you want to store about it. Write your code in the file Song.java to implement a class called Song with the following 
+private attributes (use the exact names):
+
+name: a String for the name of the song;
+year: an integer for the year the song was released;
+numberOfWriters: an integer to store the number of the song’s composers;
+writers: an array of Strings to store the name of the song's composers. A song can have a maximum of 50 composers;
+rating: an integer value ranging from 1 (horrible) to 5 (the best song ever).
+
+
+Your class should also contain the following methods (use the same signature):
+public Song(String name): that takes as an argument the song's name;
+
+public void setName(String name): updates song's name attribute;
+
+public String getName(): returns song's name attribute;
+
+public void setYear(int year): updates song's year attribute;
+
+public int getYear(): returns song's year attribute;
+
+public void setRating(int rating): update song's rating attribute;
+
+public int getRating(): returns song's rating attribute;
+
+public void addWriter(String writerName): receives a String with the writer’s name as a parameter and inserts the String into the writer array at the 
+                                          first empty position; update numberOfWriters to reflect the new number of writers;
+                                          
+public String[] getWriters(): returns the writers array attribute;
+
+public int getNumberOfWriters():returns the value of numberOfWriters attribute;
+
+public String getWriterAtIndex(int index): returns the writer’s name at that index. Use 0 based indexing where an index of 0 is the first name. It should 
+                                           return null if there is no writer at that index;
+                                           
+public String toString(): returns the string representation of this song with the song's name, year, and rating. Output in the format "name, year, rating";
+
+public boolean equals(Object other): returns true if this object is the same as other object. Two objects are equal if they have the same name, 
+                                     the same writers/composers, and were released at the same year. Assume the ordering of writers might not be the same and 
+                                     no duplicate writer name exists in either song.
+                                     
+public int compareTo (Song other): return 0 if this song's name is lexicographically equal to other song's name; Return a negative number, say -1, if this 
+                                   song's name is less than the other song's name lexicographically; Return a postive number, say 1, if this song's name is greater 
+                                   than the other song's name lexicographically.
+                                   
+                                   
+You may write your own main method to test your class. Autolab will ignore your main method.
