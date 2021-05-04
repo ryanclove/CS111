@@ -1,0 +1,27 @@
+Write your code in the file TwoLargest.java, your file has to have this exact name with T and L capitalized. 
+You must use the IO module to read inputs and output your answers. When prompting the user, use System.out.print() or System.out.println().
+
+Write a program that takes a set of numbers and determines which are the two largest numbers.
+
+Ask the user for the following information, in this order:
+
+A terminating value (real number). The user will enter this value again later, to indicate that he or she is finished providing input.
+A sequence of real numbers. Keep asking for numbers until the terminating value is entered again.Make sure the user inputs at least two numbers before 
+reentering the terminating value. Compute and output the largest and second-largest real number, in that order. It is possible for the largest and 
+second-largest numbers to be the same (if the sequence contains duplicate numbers).
+
+Example:
+
+java TwoLargest
+123.3 [this is the terminating value, not part of the set of numbers]
+ 17.0
+ 23.5
+ 10.0
+ 15.2
+ 30.0
+ 8.0
+ 16.0
+ 123.3 [this is the terminating value again, indicating that the user is done]
+ RESULTS TO OUTPUT (in this order): 
+ 30.0
+ 23.5
