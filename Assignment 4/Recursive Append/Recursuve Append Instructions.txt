@@ -1,0 +1,20 @@
+Write your code in the file AppendRec.java, your class must have this exact name with A and R capitalized.
+
+Include a recursive method appendNTimes that has two parameter, a string and an integer. The method appendNTimes returns the original 
+string appended to the original string n times. Use the following method header:
+
+public static String appendNTimes ( String original, int n )
+Examples:
+
+appendNTimes( "cat", 0 ) returns "cat"
+
+appendNTimes( "cat", 1 ) returns "catcat"
+
+appendNTimes( "cat", 2 ) returns "catcatcat"
+
+The following restrictions apply to method appendNTimes:
+
+YOUR CODE MUST BE RECURSIVE
+Do not use loops (while, do/while, or for).
+Do not declare any variables outside of a method. You may declare local variables inside a method.
+You may write your own main method to test your appendNTimes method. Autolab will ignore your main method.
